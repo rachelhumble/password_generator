@@ -1,0 +1,56 @@
+body {
+    background-color: lightgray;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    color: #27AA80;
+}
+
+form {
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 18px;
+}
+
+.form-control {
+    border: dashed chartreuse;
+    margin-bottom: 20px;
+}
+
+label {
+    text-align: left;
+}
+
+.btn {
+    border-radius: 5px;
+    height: 80px;
+    width: 240px;
+    font-size: 24px;
+}
+
+.btn-info {
+    background-color: #27AA80;
+    margin-right: 25px;
+    border: #27AA80;
+}
+.btn-info:hover {
+    background-color: chartreuse;
+    color: #27AA80;
+}
+
+.btn-info:active {
+    background-color: chartreuse;
+    color: #27AA80;
+}
+
+.btn-secondary {
+    margin-left: 25px;
+}
+
+.btn-secondary:hover {
+    border: chartreuse;
+    color: chartreuse;
+}
