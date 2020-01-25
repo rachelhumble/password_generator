@@ -1,7 +1,7 @@
 # password_generator
 Password Generator app for hw assignment 3
 
-***Unfortunately I had a very busy week at work and was unable to start this assignment with enough time to troublehsoot. I ran out of time and could not unpack why my 'copy to clipboard' function doesn't work-- so this feature does not work yet. I'll continue to troubleshoot this tomorrow but wanted to post what I have now.***
+
 
 ## User Story
 
