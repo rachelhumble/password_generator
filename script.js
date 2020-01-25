@@ -82,9 +82,12 @@ generate.addEventListener("click", function(e) {
 
         console.log("Password: " + generatedPassword.slice(0, charLength));
         var result = generatedPassword.slice(0, charLength);
+
+        document.querySelector("#copyButton").removeAttribute("disabled");
+        
         return result;
       }
-  })
+});
 
 
 
@@ -93,4 +96,4 @@ copyPassword.addEventListener("click", function(e) {
   resultEl.select();
   document.execCommand("Copy");
   alert("Password copied to clipboard!");
-})
+});
